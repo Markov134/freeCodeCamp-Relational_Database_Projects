@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 # this program brings forth the data from the postegras periodic database
 PSQL="psql --username=freecodecamp --dbname=periodic_table --no-align --tuples-only -c"
